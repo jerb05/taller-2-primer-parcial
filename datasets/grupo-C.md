@@ -1,7 +1,7 @@
 ```JS
-use sensores
+use mediciones
 
-db.mediciones.insertMany([
+db.sensores.insertMany([
 { sensor_id: "S101", temperatura: 22, humedad: 55, zona: "laboratorio" },
 { sensor_id: "S102", temperatura: 23, humedad: 50, zona: "laboratorio" },
 { sensor_id: "S103", temperatura: 24, humedad: 52, zona: "laboratorio" },
